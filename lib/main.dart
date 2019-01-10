@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              InkWell(
+              InkWell( //used solely to achieve long press
                 key: Key("${currentColor.toString()}xInkwell"),
                 onLongPress: () {
                   setState(() {
